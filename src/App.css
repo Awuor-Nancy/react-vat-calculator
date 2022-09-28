@@ -1,0 +1,209 @@
+
+body{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.Nav {
+   display: flex;
+   font-size: 20px;
+   margin: 30px;
+   box-shadow: 8px 5px 5px -2px rgba(2,0,1,0);
+   -webkit-box-shadow: 8px 5px 25px -2px rgba(0,0,0,1);
+   -moz-box-shadow: 48px 5px 5px -2px rgba(0,0,0,1);
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.Nav img {
+  height: 10vmin;
+  width: 100%;
+
+}
+.Nav a{
+  color: #1CB484;
+  text-decoration: none;
+  margin-top: 100px;
+  font-weight: bolder;
+  margin-bottom: -40px;
+
+}
+.Tax{
+background-color: #1CB484;
+width: 50%;
+margin: auto;
+ 
+}
+
+.Deductions {
+  margin-left:100px;
+  
+  }
+
+.Deductions input{
+
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  margin-left: 230px; 
+  display: flex;
+  margin-top: -5%;
+ 
+  
+ }
+
+ .Deductions label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+
+ }
+
+ .total-income{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 95px;
+  margin-left: 100px;
+
+ }
+ .total-income h1{
+  padding: 20px;
+  color: whitesmoke;
+
+ }
+ 
+.total-income input{
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  margin-left: 114px;  
+  display: flex;
+  margin-top: -4%;
+  width: 60%;
+
+}
+
+.Bills{
+  background-color: whitesmoke;
+  width: 50%;
+  margin: auto;
+   
+  }
+
+.net-income{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 95px;
+  margin-left: 100px;
+
+}
+
+.net-income h1{
+  padding: 20px;
+  color:  #1CB484;;
+
+ }
+ 
+.net-income input{
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  margin-left: 114px;  
+  display: flex;
+  margin-top: -4%;
+  width: 60%;
+  color:  #1CB484;
+
+}
+.net-income label{
+  color:  #1CB484;
+
+}
+
+.Expenses {
+  margin-left:100px;
+  
+  }
+
+.Expenses input{
+
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  margin-left: 230px; 
+  display: flex;
+  margin-top: -5%;
+ 
+  
+ }
+
+ .Expenses label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color:  #1CB484;
+
+ }
+
+.total-expenses {
+  display: flex;
+  margin-left: 10px;
+ justify-content: space-evenly;
+  
+}
+
+.total-expenses input{
+   margin: 10px;
+   display: flex;
+   padding: 8px;
+   border: solid 3px  #1CB484;
+   border-radius: 10px;
+  
+}
+
+.balance{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 95px;
+  margin-left: 100px;
+
+}
+
+.balance input{
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  margin-left: 114px;  
+  display: flex;
+  margin-top: -4%;
+  width: 60%;
+  color:  #1CB484;
+
+}
+.balance label{
+  color:  #1CB484;
+
+}
+
+button{
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-weight: bolder;
+
+}
+.footer{
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial Courier, Courier, monospace;
+  color:  #000;
+}
+
+
+
